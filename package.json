@@ -1,0 +1,16 @@
+{
+  "name": "jest-coverage-leak",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --detectLeaks"
+  },
+  "dependencies": {
+    "jest": "^22.0.6",
+    "weak": "^1.0.1"
+  },
+  "jest": {
+    "setupFiles": ["./setup.js"]
+  }
+}
